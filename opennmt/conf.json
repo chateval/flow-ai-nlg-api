@@ -1,0 +1,16 @@
+{
+    "models_root": ".",
+    "models": [
+        {
+            "id": 0,
+            "model": "os.pt",
+            "timeout": 6000,
+            "on_timeout": "unload",
+            "load": true,
+            "opt": {
+                "gpu": -1,
+                "beam_size": 10
+            }
+        }
+    ]
+}
